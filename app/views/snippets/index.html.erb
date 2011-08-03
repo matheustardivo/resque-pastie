@@ -1,0 +1,11 @@
+<h1>Listing snippets</h1>
+
+<% @snippets.each do |snippet| %>
+  <div class="snippet">
+    <% if snippet.highlighted_code.present? %>
+      <%= raw snippet.highlighted_code %>
+    <% else %>
+      <pre><%= snippet.plain_code %></pre>
+    <% end %>
+  </div>
+<% end %>
