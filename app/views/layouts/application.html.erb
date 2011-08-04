@@ -10,8 +10,8 @@
 
   <div class="header">
     <ul class="tabs">
-      <li><%= link_to "New", new_snippet_path, :class=> ("selected" if request.path =~ /\/new/ || request.path =~ /\/$/ ) %></a></li>
-      <li><a href="/">Pastes</a></li>
+      <li><%= link_to "New", new_snippet_path, :class=> ("selected" if request.path =~ /\/new/ ) %></li>
+      <li><%= link_to "Snippets", snippets_path, :class=> ("selected" if request.path =~ /\/snippets$/ || request.path =~ /\/$/ ) %></li>
       <li><a href="#">Search</a></li>
       <li><a href="#">Help</a></li>
       <li><a href="#">About</a></li>

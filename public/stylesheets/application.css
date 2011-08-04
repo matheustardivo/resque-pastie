@@ -1,5 +1,5 @@
 #content {
-	width: 800px;
+	width: 1024px;
 }
 
 .snippet {
@@ -17,7 +17,7 @@
 .header {
 	position: relative;
 	margin: -30px 0 0 -25px;
-	width: 800px;
+	width: 1024px;
 	padding: 20px 25px 0;
 }
 
@@ -61,13 +61,9 @@ ul.tabs li a:hover {
 }
 
 ul.tabs li a.selected {
-	position: relative;
-	top: -1px;
 	color: #000;
-	background: #d3d3d3;
-	border: 1px solid #d3d3d3;
-	border-right-color: #d3d3d3;
-	border-bottom-color: #d3d3d3;
+	background-color: #d3d3d3;
+	text-decoration: none;
 }
 
 #notice {
