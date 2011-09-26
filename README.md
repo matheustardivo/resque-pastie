@@ -8,9 +8,5 @@
     cd resque-pastie
     bundle install
     rails server
-
-A small test for test the pull request feature
-Another small change...
-
-The last change to test a manual merging of the pull request
+    Point your browser to http://localhost:3000
 
