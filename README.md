@@ -8,6 +8,7 @@
     cd resque-pastie
     bundle install
     rails server
+    Point your browser to http://localhost:3000
 
 A small test for test the pull request feature
 Another small change...
