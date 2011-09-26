@@ -10,4 +10,5 @@
     rails server
 
 A small test for test the pull request feature
+Another small change...
 
