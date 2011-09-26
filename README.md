@@ -8,3 +8,6 @@
     cd resque-pastie
     bundle install
     rails server
+
+A small test for test the pull request feature
+
